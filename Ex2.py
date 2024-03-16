@@ -1,4 +1,12 @@
-def Base10To16(nb10) :
+def Base10To16(nb10 : int) -> str :
+    """_summary_
+
+    Args:
+        nb10 (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     
     res = ''
 
