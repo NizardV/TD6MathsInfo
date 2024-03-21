@@ -1,6 +1,6 @@
 #Q1
 
-def decimalVersBinaire(n : int or str) -> int :
+def Base10To2(n : int or str) -> int :
     assert n >= 0, "Erreur entrée : entier naturel attendu"
     assert isinstance(n,(int,str)), "Erreur entrée : type entier ou chaine de caractère attendu"
 
@@ -33,7 +33,7 @@ def decimalVersBinaire(n : int or str) -> int :
 
 #Q2
 
-def binaireVersDecimal(n : int or str) -> int :
+def Base2To10(n : (int, str)) -> int :
     assert n >= 0, "Erreur entrée : entier naturel attendu"
     assert isinstance(n,(int,str)), "Erreur entrée : type entier ou chaine de caractère attendu"
 
@@ -57,26 +57,26 @@ def binaireVersDecimal(n : int or str) -> int :
     return res
 
 
-nbB = int(input("Entrez un nombre en base 2 : "))
+# nbB = int(input("Entrez un nombre en base 2 : "))
 
-print(binaireVersDecimal(nbB))
+# print(Base2To10(nbB))
 
 #Q3
 
 listeDecimal = [i for i in range(1, 26)]
-print(listeDecimal)
+# print(listeDecimal)
 listeBinaire = []
 
 for nombre in listeDecimal :
-    listeBinaire.append(decimalVersBinaire(nombre))
+    listeBinaire.append(Base2To10(nombre))
 
-print(listeBinaire)
+# print(listeBinaire)
 
 listeRes = []
 
 for nombre in listeBinaire :
-    listeRes.append(binaireVersDecimal(nombre))
+    listeRes.append(Base2To10(nombre))
 
-print(listeRes)
+# print(listeRes)
 
 
