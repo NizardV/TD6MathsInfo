@@ -1,12 +1,11 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+TODO: Voici mon TD de maths, TD6 : Conversions entre bases
 
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+1. Cloner le projet sur VSCode
+2. Décommenter les lignes nécessaires si besoin
+3. Lancer le programme de conversion
 
 # Build and Test
 TODO: Describe and show how to build your code and run the tests. 
